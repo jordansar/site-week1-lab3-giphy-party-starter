@@ -1,6 +1,13 @@
 // Global Constants
-const apiKey = "MY_API_KEY"
+const apiKey = "GISFfoSUc1uC4FoW6qSccbYWJdxyBK2M"
+const searchForm = document.querySelector('.search-form');
+const searchText = document.querySelector('.search-input');
+const searchButton = document.querySelector('.search-button');
+const limit = 9;
+const rating = 'g';
 
+
+let basrURL = 'api.giphy.com/v1/gifs/search';
 /**
  * Update the DOM to display results from the Giphy API query.
  *
@@ -31,6 +38,13 @@ async function getGiphyApiResults(searchTerm) {
  */
 async function handleFormSubmit(event) {
   // YOUR CODE HERE
+
+
+  
+  // fetch(apiKey).then((res) => res.json).then(data)
+  // {
+    
+  // }
 }
 
 // searchForm.addEventListener("submit", handleFormSubmit)
